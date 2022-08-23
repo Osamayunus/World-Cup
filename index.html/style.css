@@ -103,7 +103,7 @@
      grid-template-columns: repeat(3, 1fr);
  }
 
- @media only screen and (max-width: 810px) and (min-width:461px) {
+ @media only screen and (max-width: 1079px) and (min-width:810px) {
      body {
          background-color: white;
      }
@@ -164,9 +164,35 @@
      }
 
      .Blogs {
-         background-color: khaki;
-         flex-wrap: wrap;
-
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
      }
 
+     .invisible {
+         display: none;
+     }
+
+     .blog-size {
+         width: 357px;
+     }
+
+
+ }
+
+ @media only screen and (max-width:809) {}
+
+ @media only screen and (min-width:1080px) {
+     .Blogs {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+     }
+
+     .View-button {
+         display: none;
+     }
+
+ }
+
+ .View-button {
+     margin-left: 300px;
  }
