@@ -102,6 +102,9 @@
  }
 
  @media only screen and (max-width: 1079px) and (min-width:810px) {
+     .invisible {
+         display: none;
+     }
 
      .Upcoming-Matches-Middle-part {
          display: grid;
@@ -173,12 +176,17 @@
      }
 
      .Blogs {
+         border: 3px solid black;
+         border: 3px solid black;
          display: grid;
          grid-template-columns: repeat(2, 1fr);
+         width: 17.2cm;
+         margin-left: -3px;
      }
 
      .blog-size {
-         width: 357px;
+         width: 397px;
+         margin-left: -20px;
      }
 
      .Upcoming-Matches {
