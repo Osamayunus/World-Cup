@@ -1,242 +1,255 @@
- body {
-     font-family: 'Nunito', sans-serif;
-     font-family: 'Poppins', sans-serif;
- }
+    body {
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Poppins', sans-serif;
+    }
 
- .Main-part {
-     margin: 40px 60px 0 60px;
- }
+    .Main-part {
+        margin: 40px 60px 0 60px;
+    }
 
- .Top-parts {
-     width: 100%;
-     height: 500px;
-     border-radius: 1.5em;
- }
+    .Top-parts {
+        width: 100%;
+        height: 500px;
+        border-radius: 1.5em;
+    }
 
- .Go-live {
-     text-decoration: none;
-     padding: 10px 30px;
-     background-image: linear-gradient(red, red);
-     color: white;
-     border-radius: 2px;
- }
+    .View {
+        margin-top: 20px;
+    }
 
- .Blog {
-     color: black;
-     width: 6cm;
-     height: 40px;
-     display: inline-block;
-     border-radius: 3px;
-     margin: 10px;
-     text-align: center;
-     text-decoration: none;
-     padding-top: 20px;
-     background-image: linear-gradient(red, red);
- }
+    .Go-live {
+        text-decoration: none;
+        padding: 10px 30px;
+        background-image: linear-gradient(red, red);
+        color: white;
+        border-radius: 2px;
+    }
 
- .button {
-     color: black;
-     text-decoration: none;
-     background-color: white;
-     width: 6cm;
-     height: 40px;
-     display: inline-block;
-     border-radius: 3px;
-     margin: 10px;
-     text-align: center;
-     padding-top: 20px;
- }
+    .Blog {
+        color: black;
+        width: 6cm;
+        height: 40px;
+        display: inline-block;
+        border-radius: 3px;
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        padding-top: 20px;
+        background-image: linear-gradient(red, red);
+    }
 
- #button-items {
-     width: 6.6cm;
-     height: 6.5cm;
-     background-color: black;
-     padding-left: .1cm;
-     padding-top: 3px;
-     border-radius: 5px;
- }
+    .button {
+        color: black;
+        text-decoration: none;
+        background-color: white;
+        width: 6cm;
+        height: 40px;
+        display: inline-block;
+        border-radius: 3px;
+        margin: 10px;
+        text-align: center;
+        padding-top: 20px;
+    }
 
- .Last-Part {
-     color: white;
-     text-align: center;
-     margin: 40px 60px 0 60px;
-     padding-top: 60px;
- }
+    #button-items {
+        width: 6.6cm;
+        height: 6.5cm;
+        background-color: black;
+        padding-left: .1cm;
+        padding-top: 3px;
+        border-radius: 5px;
+    }
 
- .footer {
-     color: rgba(93, 101, 108, 0.916);
- }
+    .Last-Part {
+        color: white;
+        text-align: center;
+        margin: 40px 60px 0 60px;
+        padding-top: 60px;
+    }
 
- .footer1 {
-     padding: 30px;
- }
+    .footer {
+        color: rgba(93, 101, 108, 0.916);
+    }
 
- .Last-Parts {
-     margin-top: 1.5cm;
-     width: 100%;
-     height: 300px;
-     background-color: black;
- }
+    .footer1 {
+        padding: 30px;
+    }
 
- .hour-padding {
-     padding-left: 15px;
- }
+    .Last-Parts {
+        margin-top: 1.5cm;
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
 
- .Span-item {
-     margin-top: 20px;
- }
+    .hour-padding {
+        padding-left: 15px;
+    }
 
- .Transfer-decoration {
-     display: inline-block;
-     border-radius: 4px;
-     width: 3.6cm;
-     height: 25px;
-     text-align: center;
-     color: black;
-     border: 2px solid rgba(75, 73, 73, 0.712);
-     text-decoration: none;
- }
+    .Span-item {
+        margin-top: 20px;
+    }
 
- .Upcoming-Matches-Middle-part {
-     margin: 0px 10px 10px 10px;
- }
+    .Transfer-decoration {
+        display: inline-block;
+        border-radius: 4px;
+        width: 3.6cm;
+        height: 25px;
+        text-align: center;
+        color: black;
+        border: 2px solid rgba(75, 73, 73, 0.712);
+        text-decoration: none;
+    }
 
- @media only screen and (max-width: 1079px) and (min-width:810px) {
-     .invisible {
-         display: none;
-     }
+    @media only screen and (max-width: 1079px) and (min-width:810px) {
+        .invisible {
+            display: none;
+        }
 
-     .Upcoming-Matches-Middle-part {
-         display: grid;
-         grid-template-columns: repeat(2, 1fr);
-     }
+        .Upcoming-Matches-Middle-part {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
 
-     .Main-part {
-         border: 3px solid blue;
+        .padding {
+            margin: 0 0 0 23px;
+        }
 
+        .View-button {
+            margin-top: 50px;
+        }
 
-     }
+        body {
+            background-color: white;
+        }
 
-     body {
-         background-color: white;
-     }
+        .top-part {
+            width: 50%;
+        }
 
-     .top-part {
-         width: 50%;
-     }
+        .Top-Image-Size {
+            margin: 70px 20px 0px 15px;
+        }
 
-     .Top-Image-Size {
-         margin: 70px 20px 0px 15px;
-     }
+        .img-size {
+            width: 8cm;
+            height: 5cm;
+        }
 
-     .para-over {
-         height: 140px;
-         overflow: hidden;
-         text-overflow: ellipsis;
-         color: #9d9993;
-         margin-bottom: 20px;
-     }
+        .para-over {
+            height: 140px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #9d9993;
+            margin-bottom: 20px;
+        }
 
-     .Middle-part {
-         flex-wrap: wrap;
-     }
+        .Middle-part {
+            flex-wrap: wrap;
+        }
 
-     #button-items {
-         display: flex;
-         width: 100%;
-         height: 2.5cm;
-         background-color: white;
-         padding-left: .1cm;
-         padding-top: 3px;
-         border-radius: 5px;
-         margin-bottom: 25px;
-     }
+        #button-items {
+            background-color: white;
+            display: flex;
+            padding-top: 3px;
+            width: 100%;
+            margin-bottom: 25px;
+            height: 2.5cm;
+            padding-left: .1cm;
+            border-radius: 5px;
+        }
 
-     .button {
-         border: 3px solid rgba(123, 120, 120, 0.297);
-         width: 6cm;
-         height: 35px;
-         display: inline-block;
-         border-radius: 13px;
-         margin: 10px;
-         text-align: center;
-         padding-top: 20px;
-     }
+        .button {
+            border: 3px solid rgba(123, 120, 120, 0.297);
+            width: 6cm;
+            height: 35px;
+            display: inline-block;
+            border-radius: 13px;
+            margin: 10px;
+            text-align: center;
+            padding-top: 20px;
+        }
 
-     .Blog {
-         border: 3px solid linear-gradient(red, red);
-         width: 6cm;
-         height: 40px;
-         display: inline-block;
-         border-radius: 13px;
-         margin: 10px;
-         text-align: center;
-         padding-top: 20px;
+        .Blog {
+            width: 6cm;
+            border: 3px solid linear-gradient(red, red);
+            display: inline-block;
+            height: 40px;
+            margin: 10px;
+            border-radius: 13px;
+            padding-top: 20px;
+            text-align: center;
+        }
 
-     }
+        .Blogs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 17.2cm;
+            margin-left: -28px;
+        }
 
-     .Blogs {
-         border: 3px solid black;
-         border: 3px solid black;
-         display: grid;
-         grid-template-columns: repeat(2, 1fr);
-         width: 17.2cm;
-         margin-left: -3px;
-     }
+        .blog-size {
+            margin-top: 20px;
+            border-radius: 10px;
+            border: 2px solid rgba(133, 130, 130, 0.068);
+            width: 8cm;
+            padding: 10px 10px 10px 10px;
+        }
 
-     .blog-size {
-         width: 397px;
-         margin-left: -20px;
-     }
+        .padding1 {
+            margin: 0 10 px 0 10px;
+        }
 
-     .Upcoming-Matches {
-         width: 7.6cm;
-         padding: 20px 15px 20px 0;
-         text-align: center;
-         border: 2px solid rgba(124, 117, 117, 0.105);
-         border-radius: 7px;
-         margin: 10px 4px 5px -15px;
+        .Upcoming-Matches {
+            width: 7.6cm;
+            padding: 25px 2px 0 13px;
+            text-align: center;
+            border: 2px solid rgba(124, 117, 117, 0.105);
+            border-radius: 7px;
+            margin: 10px 59px 30px 0;
+        }
+    }
 
-     }
- }
+    @media only screen and (max-width:809) {}
 
- @media only screen and (max-width:809) {}
+    @media only screen and (min-width:1080px) {
+        .blog-size {
+            padding: 0 20px 20px 0;
+            border-radius: 3px;
+        }
 
- @media only screen and (min-width:1080px) {
+        .Upcoming-Matches-Middle-part {
+            margin: 0px 10px 10px 10px;
+        }
 
-     .Upcoming-Matches-Middle-part {
-         margin: 0px 10px 10px 10px;
-     }
+        .Upcoming-Matches {
+            margin: 0 0 20px 15px;
+            padding: 20px 15px 20px 0;
+            text-align: center;
+            border: 2px solid rgba(124, 117, 117, 0.105);
+            border-radius: 7px;
+        }
 
-     .Upcoming-Matches {
-         margin: 0 0 20px 15px;
-         padding: 20px 15px 20px 0;
-         text-align: center;
-         border: 2px solid rgba(124, 117, 117, 0.105);
-         border-radius: 7px;
-     }
+        .Blogs {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
 
-     .Blogs {
-         display: grid;
-         grid-template-columns: repeat(3, 1fr);
-     }
+        .Upcoming-Matches-Middle-part {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
 
-     .Upcoming-Matches-Middle-part {
-         display: grid;
-         grid-template-columns: repeat(3, 1fr);
-     }
+        .View-all {
+            display: none;
+        }
 
-     .View-all {
-         display: none;
+        .View-button {
+            display: none;
+        }
+    }
 
-     }
-
-     .View-button {
-         display: none;
-     }
-
- }
-
- .View-button {
-     margin-left: 300px;
- }
+    .View-button {
+        margin-left: 267px;
+    }
