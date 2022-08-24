@@ -104,6 +104,12 @@
  }
 
  @media only screen and (max-width: 1079px) and (min-width:810px) {
+
+     .Upcoming-Matches-Middle-part {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+     }
+
      body {
          background-color: white;
      }
@@ -168,10 +174,6 @@
          grid-template-columns: repeat(2, 1fr);
      }
 
-     .invisible {
-         display: none;
-     }
-
      .blog-size {
          width: 357px;
      }
@@ -185,6 +187,16 @@
      .Blogs {
          display: grid;
          grid-template-columns: repeat(3, 1fr);
+     }
+
+     .Upcoming-Matches-Middle-part {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+     }
+
+     .View-all {
+         display: none;
+
      }
 
      .View-button {
