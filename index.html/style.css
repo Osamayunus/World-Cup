@@ -107,6 +107,11 @@
             display: none;
         }
 
+        .Matches-Flags {
+            margin-left: 20px;
+            display: flex;
+        }
+
         .Upcoming-Matches-Middle-part {
             width: 100%;
             display: grid;
@@ -114,7 +119,7 @@
         }
 
         .padding {
-            margin: 0 0 0 23px;
+            margin: 0 0 0 50px;
         }
 
         .View-button {
@@ -208,7 +213,7 @@
             text-align: center;
             border: 2px solid rgba(124, 117, 117, 0.105);
             border-radius: 7px;
-            margin: 10px 59px 30px 0;
+            margin: 10px 74px 30px 0;
         }
     }
 
@@ -216,6 +221,11 @@
         .blog-size {
             padding: 0 20px 20px 0;
             border-radius: 3px;
+        }
+
+        .Matches-Flags {
+            margin-left: 20px;
+            display: flex;
         }
 
         .Upcoming-Matches-Middle-part {
@@ -250,18 +260,17 @@
     }
 
     .View-button {
-        margin-left: 267px;
+        margin-left: 283px;
     }
 
     @media only screen and (max-width:809px) {
         .Top-parts {
-            border: 3px solid blue;
-
             align-items: center;
             width: 100%;
             margin-bottom: -45px;
             height: 24cm;
             flex-wrap: wrap;
+            margin-left: -3px;
         }
 
         .View {
@@ -288,7 +297,7 @@
         }
 
         .button {
-            border: 3px solid green;
+            border: 3px solid rgba(138, 141, 138, 0.171);
         }
 
         #button-items {
@@ -302,13 +311,12 @@
 
         .Main-part {
             margin: 40px 25px 0 25px;
-            border: 3px solid gray;
 
         }
 
         .Top-Image-Size {
             width: 7cm;
-            margin: 0 0 -26px 77px;
+            margin: 0 0 -24px 77px;
         }
 
         .img-size {
@@ -332,13 +340,20 @@
             margin-bottom: 20px;
         }
 
+        .Matches-Flags {
+            margin: 25px -52px 10px 74px;
+            display: flex;
+
+        }
+
         .Upcoming-Matches {
-            width: 7.6cm;
+            width: 388px;
             padding: 25px 2px 0 13px;
             text-align: center;
             border: 2px solid rgba(124, 117, 117, 0.105);
             border-radius: 7px;
-            margin: 0 10px 35px 10px;
+            margin: 0px 0 35px -38px;
+            padding: 10px 6px 10px 10px
         }
 
         .Upcoming-Matches-Middle-part {
