@@ -219,8 +219,9 @@
 
     @media only screen and (min-width:1080px) {
         .blog-size {
-            padding: 0 20px 20px 0;
-            border-radius: 3px;
+            border-radius: 14px;
+            border: 2px solid rgba(134, 132, 132, 0.16);
+            margin: 0 22px 22px -1px
         }
 
         .Matches-Flags {
