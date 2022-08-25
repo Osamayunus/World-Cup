@@ -1,4 +1,5 @@
     body {
+        margin: auto;
         font-family: 'Nunito', sans-serif;
         font-family: 'Poppins', sans-serif;
     }
@@ -255,16 +256,44 @@
     @media only screen and (max-width:809px) {
         .Top-parts {
             border: 3px solid blue;
+
             align-items: center;
             width: 100%;
+            margin-bottom: -45px;
             height: 24cm;
             flex-wrap: wrap;
+        }
+
+        .View {
+            display: none;
+        }
+
+        .invisible {
+            display: none;
+        }
+
+        .Middle-part {
+            flex-wrap: wrap;
+
+        }
+
+        .Blogs {
+            margin: 25px 0 25px 36px;
         }
 
         .Go-live {
             display: inline-block;
             height: 28px;
             width: 100px;
+        }
+
+        .button {
+            border: 3px solid green;
+        }
+
+        #button-items {
+            background-color: white;
+            margin: 0 0 0 65px;
         }
 
         .top-part {
@@ -274,11 +303,25 @@
         .Main-part {
             margin: 40px 25px 0 25px;
             border: 3px solid gray;
+
         }
 
         .Top-Image-Size {
             width: 7cm;
             margin: 0 0 -26px 77px;
+        }
+
+        .img-size {
+            width: 347px;
+            height: auto;
+        }
+
+        .blog-size {
+            margin: 10px 0 28px -57px;
+            border-radius: 10px;
+            border: 2px solid rgba(133, 130, 130, 0.068);
+            width: 377px;
+            padding: 30px 0px 19px 27px
         }
 
         .para-over {
@@ -287,5 +330,28 @@
             text-overflow: ellipsis;
             color: #9d9993;
             margin-bottom: 20px;
+        }
+
+        .Upcoming-Matches {
+            width: 7.6cm;
+            padding: 25px 2px 0 13px;
+            text-align: center;
+            border: 2px solid rgba(124, 117, 117, 0.105);
+            border-radius: 7px;
+            margin: 0 10px 35px 10px;
+        }
+
+        .Upcoming-Matches-Middle-part {
+            margin: 25px 0 25px 36px;
+
+        }
+
+        .Span-item {
+            flex-direction: column;
+            display: flex;
+        }
+
+        .Last-Parts {
+            height: 100%;
         }
     }
